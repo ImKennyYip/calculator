@@ -41,7 +41,8 @@ body {
     border: none;
     background-color: #505050;
     color: white;
-    font-size: 40px;
+    font-size: 36px;
+    text-align: center;
 }
 
 #buttons button:hover {
