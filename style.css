@@ -15,12 +15,12 @@ body {
 #display {
     background-color: #1C1C1C;
     color: white;
-    font-size: 80px;
+    font-size: 90px;
     text-align: right;
     border: none;
     outline: none;
-    width: 380px;
-    max-width: 380px;
+    width: 360px;
+    max-width: 360px;
 }
 
 #buttons {
