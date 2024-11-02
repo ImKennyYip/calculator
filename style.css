@@ -7,38 +7,38 @@ body {
 #calculator {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #1C1C1C;
-    padding-top: 40px;
-    width: 425px;
-    overflow: hidden;
+    padding: 40px 5px 5px 5px;
+    width: 400px;
+    max-width: 400px;
 }
 
 #display {
     background-color: #1C1C1C;
     color: white;
     font-size: 80px;
+    text-align: right;
     border: none;
     outline: none;
-    width: 400px;
-    text-align: right;
-    padding-right: 20px;
+    width: 380px;
+    max-width: 380px;
 }
 
 #buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 12px;
-    padding: 12px;
+    gap: 8px;
+    padding: 8px;
 }
 
 #buttons button {
-    width: 80px;
-    height: 80px;
-    border-radius: 40px;
-    border: none;
     background-color: #505050;
     color: white;
     font-size: 36px;
     text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    border: none;
 }
 
 #buttons button:hover {
