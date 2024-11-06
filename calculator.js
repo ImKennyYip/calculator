@@ -28,7 +28,7 @@ for (let i = 0; i < buttonValues.length; i++) {
     
     //styling button colors
     if (value == "0") {
-        button.style.width = "200px";
+        button.style.width = "180px";
         button.style.gridColumn = "span 2"; //take up 2 columns
     }
     else if (rightSymbols.includes(value)) {
